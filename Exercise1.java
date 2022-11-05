@@ -10,6 +10,7 @@ public class Exercise1 {
 				System.out.println("is a mail");}}
 	catch(MailException m) {
 		m.printStackTrace();
+		System.out.println("end");
 	}
 	}
 }
